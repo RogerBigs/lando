@@ -20,6 +20,6 @@
     "mailchimp-api-v3": "^1.13.1",
     "platformsh": "^1.0.0",
     "slack-notify": "^0.1.7",
-    "winston": "2.2"
+    "winston": "2.4.5"
   }
 }
