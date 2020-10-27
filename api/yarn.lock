@@ -664,10 +664,10 @@ macos-release@^2.2.0:
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
   integrity sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==
 
-mailchimp-api-v3@^1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/mailchimp-api-v3/-/mailchimp-api-v3-1.13.1.tgz#40c4c719f422a7d4838aa0c508fd2dd82174438b"
-  integrity sha512-xNqw2evlVT5qPY+KYa6JQcFMcWLvpGydxgaH4TDfJjOvTD5OIX4z04VUXPcsirsDkIKn4uaFNUNBHhYjnkR38w==
+mailchimp-api-v3@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/mailchimp-api-v3/-/mailchimp-api-v3-1.14.0.tgz#aeccf66a0232f68be2d01401bf827d6505b61dd8"
+  integrity sha512-DGeEuRYrpL1lr8ZL4PAmx+l2hRuGy+SYKnBfEYJCG+QLEiwMAImXaZO91s51I2VFfwoEHEwqrjZLouV+sBXG3w==
   dependencies:
     bluebird "^3.4.0"
     lodash "^4.17.14"
