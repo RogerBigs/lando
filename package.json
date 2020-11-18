@@ -146,7 +146,7 @@
     "valid-url": "^1.0.9",
     "winston": "^2.2.0",
     "yargonaut": "^1.1.2",
-    "yargs": "^12.0.5"
+    "yargs": "^16.0.0"
   },
   "devDependencies": {
     "@bugsnag/js": "^6.4.3",
