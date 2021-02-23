@@ -49,6 +49,11 @@ array-flatten@1.1.1:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
+asap@~2.0.3:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
+  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+
 async@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/async/-/async-1.0.0.tgz#f8fc04ca3a13784ade9e1641af98578cfbd647a9"
@@ -155,16 +160,15 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-elasticsearch@~10.1.2:
-  version "10.1.3"
-  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-10.1.3.tgz#136d29d1a8adba6858724f7f1be7225df6618750"
-  integrity sha1-E20p0aitumhYck9/G+ciXfZhh1A=
+elasticsearch@~12.0.0:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-12.0.1.tgz#107a5525f04f15a4f7838351384d90a778252687"
+  integrity sha1-EHpVJfBPFaT3g4NROE2Qp3glJoc=
   dependencies:
     chalk "^1.0.0"
     forever-agent "^0.6.0"
-    lodash "^3.10.0"
-    lodash-compat "^3.0.0"
-    promise-js "0.0.6"
+    lodash "^4.12.0"
+    promise "^7.1.1"
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -330,20 +334,10 @@ isstream@0.1.x:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-lodash-compat@^3.0.0:
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/lodash-compat/-/lodash-compat-3.10.2.tgz#c6940128a9d30f8e902cd2cf99fd0cba4ecfc183"
-  integrity sha1-xpQBKKnTD46QLNLPmf0Muk7PwYM=
-
-lodash@^3.10.0:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
-  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
-
-lodash@~4.17.19:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+lodash@^4.12.0, lodash@~4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -426,10 +420,12 @@ platformsh@^1.0.0:
   resolved "https://registry.yarnpkg.com/platformsh/-/platformsh-1.0.0.tgz#8d4eb5959fef3ff05ffaf6e0d5d03205a304d6d9"
   integrity sha1-jU61lZ/vP/Bf+vbg1dAyBaME1tk=
 
-promise-js@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/promise-js/-/promise-js-0.0.6.tgz#edd2ea0d41b355098eebd035b471cf7de332d9b0"
-  integrity sha1-7dLqDUGzVQmO69A1tHHPfeMy2bA=
+promise@^7.1.1:
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+  integrity sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
+  dependencies:
+    asap "~2.0.3"
 
 proxy-addr@~2.0.5:
   version "2.0.5"
