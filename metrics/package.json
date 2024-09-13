@@ -11,10 +11,10 @@
   "dependencies": {
     "@bugsnag/js": "^6.4.3",
     "bluebird": "^3.1.1",
-    "body-parser": "^1.14.2",
+    "body-parser": "^1.20.3",
     "dotenv": "^4.0.0",
     "elasticsearch": "~10.1.2",
-    "express": "^4.13.3",
+    "express": "^4.21.0",
     "lodash": "~4.17.19",
     "platformsh": "^1.0.0",
     "winston": "2.2"
